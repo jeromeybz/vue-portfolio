@@ -10,7 +10,6 @@
           :key="pIdx"
           class="flex flex-col bg-white rounded-2xl shadow-xl border border-gray-200 p-8 w-full max-w-2xl"
         >
-          <!-- Carousel -->
           <div class="relative flex justify-center">
             <img  
               :src="project.images[project.currentImage]"
@@ -38,14 +37,12 @@
       </div>
     </div>
 
-<!-- modal -->
     <div
       v-if="projectStore.modal.open"
       class="fixed inset-0 backdrop-blur-sm flex items-center justify-center z-50"
       @click.self="projectStore.closeModal"
     >
       <div class="bg-white rounded-2xl p-8 max-w-2xl w-full flex flex-col items-center relative shadow-2xl">
-        <!-- Improved close button -->
         <button
           @click="projectStore.closeModal"
           class="absolute top-3 right-5 w-5 h-5 flex items-center justify-center rounded-full bg-[#42b883] text-white text-lg hover:bg-[#36996a] transition"

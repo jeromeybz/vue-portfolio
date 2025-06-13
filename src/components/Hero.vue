@@ -1,6 +1,5 @@
 <template>
   <section id= "hero" class="flex flex-col md:flex-row items-center justify-center gap-16 p-16 min-h-[calc(80vh-4rem)] scroll-mt-23">
-    <!-- Left: Profile pic + quote -->
     <div class="flex flex-col items-center space-y-4">
       <img
         src="@/assets/prof.jpg"
@@ -14,7 +13,6 @@
       <p class="italic text-white-200 text-lg leading-tight"> — Robert Kiyosaki</p> -->
     </div>
 
-    <!-- Right: Name and Description -->
     <div class="text-center md:text-left space-y-4 flex flex-col items-center md:items-start">
       <h5 class="text-5xl font-bold text-white-800">Marc Jerome F. Colobong</h5>
       <p class="text-white-600 max-w-xl text-2xl">
@@ -29,7 +27,6 @@
         Download CV
       </a>
 
-      <!-- Social Buttons moved here -->
       <div class="flex items-center space-x-4 mt-4">
         <a href="https://www.instagram.com/jeromesszzz/" target="_blank" aria-label="Instagram">
           <img src="@/assets/instagram.svg" alt="Instagram" class="w-8 h-8 sm:w-10 sm:h-10" />

@@ -1,6 +1,5 @@
 <template>
   <header class="fixed top-0 left-0 w-full flex items-center justify-between px-4 md:px-12 lg:px-24 xl:px-72 py-2 bg-white shadow z-50">
-    <!-- Left: Logo -->
     <div class="text-xl font-bold text-blue-600 flex items-center">
       <button
         @click="theme.goToBybit"
@@ -12,9 +11,8 @@
       </button>
     </div>
 
-    <!-- Right: Toggle Button with Navigation -->
+
     <div class="flex items-center space-x-4">
-<!-- Replace scrollToSection and isActiveSection with header.scrollToSection and header.isActiveSection -->
       <button
         @click="header.scrollToSection('hero')"
         :class="[
