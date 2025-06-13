@@ -8,14 +8,15 @@
         <div
           v-for="(project, pIdx) in projectStore.projects"
           :key="pIdx"
-          class="flex flex-col bg-white rounded-2xl shadow-xl border border-gray-200 p-8 w-full max-w-2xl"
+          class="flex flex-col bg-white rounded-2xl shadow-xl border-2 border-green-600 p-8 w-full max-w-2xl"
         >
           <div class="relative flex justify-center">
             <img  
               :src="project.images[project.currentImage]"
               alt="Project Image"
-              class="w-full h-[18rem] object-cover rounded-xl mb-6 cursor-pointer"
+              class="w-full h-48 sm:h-[18rem] object-cover rounded-xl mb-6 cursor-pointer"
               @click="projectStore.openModal(pIdx, project.currentImage)"
+              style="background: #f3f4f6;"
             />
             <button
               v-if="project.images.length > 1"
@@ -31,7 +32,17 @@
           <h3 class="text-xl font-semibold text-gray-800 mb-3">{{ project.title }}</h3>
           <p class="text-gray-600 text-base mb-4">{{ project.description }}</p>
           <div class="flex flex-wrap gap-2 mb-2">
-            <span v-for="(tech, i) in project.tech" :key="i" class="px-3 py-1 rounded bg-gray-100 text-xs font-mono border">{{ tech }}</span>
+            <span
+              v-for="(tech, i) in project.tech"
+              :key="i"
+              class="px-3 py-1 rounded bg-gray-100 text-xs font-mono border border-gray-300"
+              :class="{
+                'text-black bg-gray-100': !theme?.dark,
+                'text-black bg-white': theme?.dark
+              }"
+            >
+              {{ tech }}
+            </span>
           </div>
         </div>
       </div>
@@ -54,7 +65,7 @@
           <img
             :src="projectStore.projects[projectStore.modal.projectIdx].images[projectStore.modal.imageIdx]"
             alt="Large Project Image"
-            class="max-h-[60vh] w-auto rounded-xl mb-6"
+            class="w-full max-h-[60vh] object-contain rounded-xl mb-6"
           />
           <button
             v-if="projectStore.projects[projectStore.modal.projectIdx].images.length > 1"
