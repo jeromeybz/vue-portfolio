@@ -7,7 +7,7 @@
         class="w-64 h-64 rounded-full object-cover border-8"
         style="border-color: #42b883;"
       />
-      <p class="italic text-white-500 text-lg leading-tight">"... "</p>
+      <!-- <p class="italic text-white-500 text-lg leading-tight">"..."</p> -->
       <!-- <p class="italic text-white-200 text-lg leading-tight">Learn to take risks.</p>
       <p class="italic text-white-200 text-lg leading-tight">Convert your fear into power and brilliance.""</p>
       <p class="italic text-white-200 text-lg leading-tight"> — Robert Kiyosaki</p> -->
