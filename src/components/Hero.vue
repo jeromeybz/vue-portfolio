@@ -28,12 +28,13 @@
       </a>
 
       <div class="flex items-center space-x-4 mt-4">
-        <a href="https://www.linkedin.com/in/marc-jerome-colobong-46b7a8367/" target="_blank" aria-label="GitHub">
+        <a href="https://github.com/jeromeybz" target="_blank" aria-label="GitHub">
           <img src="@/assets/githublogo.png" alt="GitHub" class="w-10 h-10 sm:w-12 sm:h-12" />
         </a>
-        <a href="https://github.com/jeromeybz" target="_blank" aria-label="GitHub">
+        <a href="https://www.linkedin.com/in/marc-jerome-colobong-46b7a8367/" target="_blank" aria-label="GitHub">
           <img src="@/assets/linkin.png" alt="GitHub" class="w-10 h-7 sm:w-10 sm:h-10 " />
         </a>
+        
         <!-- <a href="https://www.instagram.com/././" target="_blank" aria-label="Instagram">
           <img src="@/assets/instagram.svg" alt="Instagram" class="w-8 h-8 sm:w-10 sm:h-10" />
         </a> -->
