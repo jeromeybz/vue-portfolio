@@ -7,7 +7,7 @@
         class="w-64 h-64 rounded-full object-cover border-8"
         style="border-color: #42b883;"
       />
-      <p class="italic text-white-500 text-lg leading-tight">"Bruhh...""</p>
+      <p class="italic text-white-500 text-lg leading-tight">"... "</p>
       <!-- <p class="italic text-white-200 text-lg leading-tight">Learn to take risks.</p>
       <p class="italic text-white-200 text-lg leading-tight">Convert your fear into power and brilliance.""</p>
       <p class="italic text-white-200 text-lg leading-tight"> — Robert Kiyosaki</p> -->
@@ -19,22 +19,26 @@
         A Computer Science student at Mariano Marcos State University. I do software development and data analytics for fun).
       </p>
       <a
-        href="/Resume_Colobongs.pdf"
+        href="/allInOneresume_colobongs.pdf"
         download
         class="inline-block mt-4 px-6 py-3 rounded hover:opacity-90 transition text-2xl"
         style="background-color: #42b883; color: #35495e; font-weight: bold;"
-      >
+      > 
         Download CV
       </a>
 
       <div class="flex items-center space-x-4 mt-4">
-        <a href="https://www.instagram.com/jeromesszzz/" target="_blank" aria-label="Instagram">
-          <img src="@/assets/instagram.svg" alt="Instagram" class="w-8 h-8 sm:w-10 sm:h-10" />
-        </a>
-        <a href="https://github.com/jeromeybz" target="_blank" aria-label="GitHub">
+        <a href="https://www.linkedin.com/in/marc-jerome-colobong-46b7a8367/" target="_blank" aria-label="GitHub">
           <img src="@/assets/githublogo.png" alt="GitHub" class="w-10 h-10 sm:w-12 sm:h-12" />
         </a>
-      </div>
+        <a href="https://github.com/jeromeybz" target="_blank" aria-label="GitHub">
+          <img src="@/assets/linkin.png" alt="GitHub" class="w-10 h-7 sm:w-10 sm:h-10 " />
+        </a>
+        <!-- <a href="https://www.instagram.com/././" target="_blank" aria-label="Instagram">
+          <img src="@/assets/instagram.svg" alt="Instagram" class="w-8 h-8 sm:w-10 sm:h-10" />
+        </a> -->
+
+      </div>  
     </div>
   </section>
 </template>
