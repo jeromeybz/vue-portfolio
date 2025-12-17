@@ -5,7 +5,7 @@ export const useProjectStore = defineStore('project', () => {
   const projects = ref([
     {
       title: "Sentiment Analysis",
-      description: "A Sentiment Analysis project that used an experimental method to analyze text data and modeled it using different machine learning models.",
+      description: "A Sentiment Analysis project that used an experimental method to train the text data and modeled it using different machine learning models.",
       images: [
         new URL('@/assets/nposition.png', import.meta.url).href,
         new URL('@/assets/combi.png', import.meta.url).href
@@ -13,6 +13,39 @@ export const useProjectStore = defineStore('project', () => {
       currentImage: 0,
       tech: ['Python', 'ML', 'NLP'],
     },
+    //
+    {
+      title: "Data Analysis and Visualization",
+      description: "Created a Data Visualization using Excel and Power BI. Gathered data from public datasets online and performed data cleaning and relationship management ",
+      images: [
+        new URL('@/assets/db3_pbi.png', import.meta.url).href,
+        new URL('@/assets/db2_pbi.png', import.meta.url).href,
+        new URL('@/assets/db1_pbi.png', import.meta.url).href,
+        new URL('@/assets/normalization_pbi.png', import.meta.url).href,
+        new URL('@/assets/raw1_pbi.png', import.meta.url).href,
+        new URL('@/assets/raw2_pbi.png', import.meta.url).href,
+        new URL('@/assets/raw3_pbi.png', import.meta.url).href,
+        new URL('@/assets/raw4_pbi.png', import.meta.url).href
+      ],
+      currentImage: 0,
+      tech: ['Excel', 'Power Query', 'Relationship Management', 'Power BI'],
+    },
+
+    //
+        {
+      title: "Excel, Power BI activities",
+      description: "Finished activities involving data cleaning, analysis, and visualization using Excel and Power BI to produce basic reports and dashboards.",
+      images: [
+        new URL('@/assets/excel_act2.png', import.meta.url).href,
+        new URL('@/assets/excel_act1.png', import.meta.url).href,
+        new URL('@/assets/excel_act3.png', import.meta.url).href,
+        new URL('@/assets/pb1_act1.png', import.meta.url).href,
+        new URL('@/assets/pbi_act2.png', import.meta.url).href,
+      ],
+      currentImage: 0,
+      tech: ['Excel', 'Power BI', 'Data Cleaning', 'Pivot Tables', 'Data Visualization'],
+    },
+
     {
       title: "Attendash",
       description: "A simple web based application that monitors Employee Attendance.",
