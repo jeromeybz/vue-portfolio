@@ -3,6 +3,37 @@ import { ref } from 'vue'
 
 export const useProjectStore = defineStore('project', () => {
   const projects = ref([
+
+    {
+      title: "End-to-end Data Analysis",
+      description: "Filtering, and transforming specific business metrics from a normalized SQL Data Warehouse for optimized Power BI visualization",
+      images: [
+        new URL('@/assets/Simple Sales Dashboard.png', import.meta.url).href,
+
+      ],
+      currentImage: 0,
+      tech: ['SSMS', 'SQL', 'Power BI'],
+      githubUrl: "https://github.com/jeromeybz/EndToEnd_DA"
+    },
+
+    {
+      title: "Google-Fibr-Cyclistic-Analysis",
+      description: "End-to-end projects from the Google Business Intelligence Certificate using BigQuery and Tableau to transform raw cloud data into a dashboards.",
+      images: [
+        new URL('@/assets/dashboard1.png', import.meta.url).href,
+        new URL('@/assets/dashbooard2.png', import.meta.url).href,
+        new URL('@/assets/dashbooard2.png', import.meta.url).href,
+
+        new URL('@/assets/dashboard1fbr.png', import.meta.url).href,
+        new URL('@/assets/dashboard2fbr.png', import.meta.url).href,
+        new URL('@/assets/dashboard3fbr.png', import.meta.url).href,
+      ],
+      currentImage: 0,
+      tech: ['BigQuery', 'SQL', 'Tableau'],
+      githubUrl: "https://github.com/jeromeybz/Google-Fibr-Cyclistic-Analysis"
+    },
+
+
     {
       title: "Sentiment Analysis",
       description: "A Sentiment Analysis project that used an experimental method to train the text data and modeled it using different machine learning models.",
@@ -13,12 +44,14 @@ export const useProjectStore = defineStore('project', () => {
       currentImage: 0,
       tech: ['Python', 'ML', 'NLP'],
     },
+
+
     //
     {
       title: "Data Analysis and Visualization",
       description: "Created a Data Visualization using Excel and Power BI. Gathered data from public datasets online and performed data cleaning and relationship management ",
       images: [
-        new URL('@/assets/db3_pbi.png', import.meta.url).href,
+        new URL('@/assets/db3_pbifinal.png', import.meta.url).href,
         new URL('@/assets/db2_pbi.png', import.meta.url).href,
         new URL('@/assets/db1_pbi.png', import.meta.url).href,
         new URL('@/assets/normalization_pbi.png', import.meta.url).href,
@@ -29,6 +62,7 @@ export const useProjectStore = defineStore('project', () => {
       ],
       currentImage: 0,
       tech: ['Excel', 'Power Query', 'Relationship Management', 'Power BI'],
+      githubUrl: "https://github.com/jeromeybz/excel_powerBI"
     },
 
     //
@@ -44,6 +78,8 @@ export const useProjectStore = defineStore('project', () => {
       ],
       currentImage: 0,
       tech: ['Excel', 'Power BI', 'Data Cleaning', 'Pivot Tables', 'Data Visualization'],
+      githubUrl: "https://github.com/jeromeybz/excel_powerBI"
+
     },
 
     {
@@ -53,8 +89,11 @@ export const useProjectStore = defineStore('project', () => {
         new URL('@/assets/attendash.png', import.meta.url).href,
       ],
       currentImage: 0,
-      tech: ['Python', 'Streamlit'],
+      tech: ['Python', 'Streamlit', 'Excel'],
+      githubUrl: "https://github.com/jeromeybz/attendash"
+
     },
+
     {
       title: "HappyFeet",
       description: "An ecommerce website that sells Footwear",
