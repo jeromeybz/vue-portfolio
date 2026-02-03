@@ -12,7 +12,7 @@ export const useProjectStore = defineStore('project', () => {
 
       ],
       currentImage: 0,
-      tech: ['SSMS', 'SQL', 'Power BI'],
+      tech: ['SQL Server', 'SQL', 'Power Query', 'Power BI'],
       githubUrl: "https://github.com/jeromeybz/EndToEnd_DA"
     },
 
