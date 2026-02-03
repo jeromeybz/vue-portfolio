@@ -51,14 +51,11 @@ export const useProjectStore = defineStore('project', () => {
       title: "Data Analysis and Visualization",
       description: "Created a Data Visualization using Excel and Power BI. Gathered data from public datasets online and performed data cleaning and relationship management ",
       images: [
-        new URL('@/assets/db3_pbifinal.png', import.meta.url).href,
-        new URL('@/assets/db2_pbi.png', import.meta.url).href,
-        new URL('@/assets/db1_pbi.png', import.meta.url).href,
+        new URL('@/assets/`m&toysupdated1.png', import.meta.url).href,
+        new URL('@/assets/`m&toysupdated2.png', import.meta.url).href,
+        new URL('@/assets/`m&toysupdated3.png', import.meta.url).href,
         new URL('@/assets/normalization_pbi.png', import.meta.url).href,
-        new URL('@/assets/raw1_pbi.png', import.meta.url).href,
-        new URL('@/assets/raw2_pbi.png', import.meta.url).href,
-        new URL('@/assets/raw3_pbi.png', import.meta.url).href,
-        new URL('@/assets/raw4_pbi.png', import.meta.url).href
+
       ],
       currentImage: 0,
       tech: ['Excel', 'Power Query', 'Relationship Management', 'Power BI'],
