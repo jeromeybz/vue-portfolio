@@ -55,6 +55,9 @@ export const useProjectStore = defineStore('project', () => {
         new URL('@/assets/`m&toysupdated2.png', import.meta.url).href,
         new URL('@/assets/`m&toysupdated3.png', import.meta.url).href,
         new URL('@/assets/normalization_pbi.png', import.meta.url).href,
+        new URL('@/assets/technicalsupp1.png', import.meta.url).href,
+        new URL('@/assets/technicalsupp2.png', import.meta.url).href,
+        new URL('@/assets/technicalsupp3dm.png', import.meta.url).href,
 
       ],
       currentImage: 0,
@@ -62,7 +65,7 @@ export const useProjectStore = defineStore('project', () => {
       githubUrl: "https://github.com/jeromeybz/excel_powerBI"
     },
 
-    //
+    // technicalsupp2
         {
       title: "Excel, Power BI activities",
       description: "Finished activities involving data cleaning, analysis, and visualization using Excel and Power BI to produce basic reports and dashboards.",
