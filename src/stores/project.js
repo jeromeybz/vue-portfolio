@@ -6,31 +6,35 @@ export const useProjectStore = defineStore('project', () => {
 
     {
       title: "End-to-end Data Analysis",
-      description: "Filtering, and transforming specific business metrics from a normalized SQL Data Warehouse for optimized Power BI visualization",
+      description: "Extracted, filtered, and transformed specific business metrics from a SQL Data Warehouse into structured DataMarts for optimized Power BI visualization.",
       images: [
-        new URL('@/assets/Simple Sales Dashboard.png', import.meta.url).href,
+        new URL('@/assets/ADW.png', import.meta.url).href,
 
       ],
       currentImage: 0,
-      tech: ['SQL Server', 'SQL', 'Power Query', 'Power BI'],
-      githubUrl: "https://github.com/jeromeybz/EndToEnd_DA"
+      tech: ['SQL Server', 'SQL', 'Data Modeling','Power Query', 'Power BI', 'Analysis Report'],
+      githubUrl: "https://github.com/jeromeybz/End-to-end-DA",
+      dashboardUrl: 'https://app.powerbi.com/view?r=eyJrIjoiZDI0MWFkMTMtOTdlYS00YjQzLWExODAtNmNhNzExMDg5OTI1IiwidCI6IjdjZmY5YzA2LThmNGQtNDAwNi1iOWQwLWU4MWRjYWJjZDU1NyIsImMiOjEwfQ%3D%3D',
+      Title: 'View Dashboard'
     },
 
     {
-      title: "Google-Fibr-Cyclistic-Analysis",
+      title: "GoogleFibr & Cyclistic Analysis",
       description: "End-to-end projects from the Google Business Intelligence Certificate using BigQuery and Tableau to transform raw cloud data into a dashboards.",
       images: [
-        new URL('@/assets/dashboard1.png', import.meta.url).href,
-        new URL('@/assets/dashbooard2.png', import.meta.url).href,
-        new URL('@/assets/dashbooard2.png', import.meta.url).href,
+        new URL('@/assets/CYCLISTIC1.png', import.meta.url).href,
+        new URL('@/assets/CYCLISTIC2.png', import.meta.url).href,
+        new URL('@/assets/CYCLISTIC3.png', import.meta.url).href,
 
-        new URL('@/assets/dashboard1fbr.png', import.meta.url).href,
-        new URL('@/assets/dashboard2fbr.png', import.meta.url).href,
-        new URL('@/assets/dashboard3fbr.png', import.meta.url).href,
+        new URL('@/assets/GOOGLEFIBR1.png', import.meta.url).href,
+        new URL('@/assets/GOOGLEFIBR2.png', import.meta.url).href,
+        new URL('@/assets/GOOGLEFIBR3.png', import.meta.url).href,
       ],
       currentImage: 0,
-      tech: ['BigQuery', 'SQL', 'Tableau'],
-      githubUrl: "https://github.com/jeromeybz/Google-Fibr-Cyclistic-Analysis"
+      tech: ['BigQuery', 'SQL', 'Tableau', 'Analysis Report'],
+      githubUrl: "https://github.com/jeromeybz/GoogleFibr-Cyclistic-Analysis",
+      dashboardUrl: 'https://public.tableau.com/app/profile/marc.jerome.colobong/viz/cyclistic_17723417749830/Home',
+      Title: 'View Dashboard'
     },
 
 
@@ -39,48 +43,50 @@ export const useProjectStore = defineStore('project', () => {
       description: "A Sentiment Analysis project that used an experimental method to train the text data and modeled it using different machine learning models.",
       images: [
         new URL('@/assets/nposition.png', import.meta.url).href,
-        new URL('@/assets/combi.png', import.meta.url).href
+        new URL('@/assets/combi.png', import.meta.url).href,
+        new URL('@/assets/heatmappic.png', import.meta.url).href
       ],
       currentImage: 0,
-      tech: ['Python', 'ML', 'NLP'],
+      tech: ['Python', 'Machine Learning', 'NLP', 'Parts of Speech Tagging'],
+      githubUrl: "https://github.com/jeromeybz/Thesis"
     },
 
 
     //
     {
-      title: "Data Analysis and Visualization",
-      description: "Created a Data Visualization using Excel and Power BI. Gathered data from public datasets online and performed data cleaning and relationship management ",
+      title: "Maven Toys Analysis",
+      // description: "Created a Data Visualization using Excel and Power BI. Gathered data from public datasets online and performed data cleaning and relationship management ",
       images: [
-        new URL('@/assets/`m&toysupdated1.png', import.meta.url).href,
-        new URL('@/assets/`m&toysupdated2.png', import.meta.url).href,
-        new URL('@/assets/`m&toysupdated3.png', import.meta.url).href,
-        new URL('@/assets/normalization_pbi.png', import.meta.url).href,
+        new URL('@/assets/M&T1.png', import.meta.url).href,
+        new URL('@/assets/M&T2.png', import.meta.url).href,
+        new URL('@/assets/M&T3.png', import.meta.url).href,
+        new URL('@/assets/M&TDATAMODEL.png', import.meta.url).href,
+
+      ],
+      currentImage: 0,
+      tech: ['Excel', 'Power Query', 'Data Modeling', 'Power BI', 'Analysis Report'],
+      githubUrl: "https://github.com/jeromeybz/Maven-Toys-Analysis",
+      dashboardUrl: 'https://app.powerbi.com/view?r=eyJrIjoiNWNmZDRiNzYtN2M2ZC00OGQyLTg5ZWEtODVlN2I5N2JjYmI1IiwidCI6IjdjZmY5YzA2LThmNGQtNDAwNi1iOWQwLWU4MWRjYWJjZDU1NyIsImMiOjEwfQ%3D%3D',
+      Title: 'View Dashboard'
+    },
+
+    {
+      title: "Technical Support Analysis",
+      // description: "Created a Data Visualization using Excel and Power BI. Gathered data from public datasets online and performed data cleaning and relationship management ",
+      images: [
+
         new URL('@/assets/technicalsupp1.png', import.meta.url).href,
         new URL('@/assets/technicalsupp2.png', import.meta.url).href,
         new URL('@/assets/technicalsupp3dm.png', import.meta.url).href,
-
       ],
       currentImage: 0,
-      tech: ['Excel', 'Power Query', 'Relationship Management', 'Power BI'],
-      githubUrl: "https://github.com/jeromeybz/excel_powerBI"
+      tech: ['Excel', 'Power Query', 'Power BI', 'Analysis Report'],
+      githubUrl: "https://github.com/jeromeybz/Technical-Support-Analysis-",
+      dashboardUrl: 'https://app.powerbi.com/view?r=eyJrIjoiZGJmZjc2ZDAtOWExMS00ZGNjLThkOTAtN2JmZTk0ZWQwMWQ5IiwidCI6IjdjZmY5YzA2LThmNGQtNDAwNi1iOWQwLWU4MWRjYWJjZDU1NyIsImMiOjEwfQ%3D%3D',
+      Title: 'View Dashboard'
     },
 
-    // technicalsupp2
-        {
-      title: "Excel, Power BI activities",
-      description: "Finished activities involving data cleaning, analysis, and visualization using Excel and Power BI to produce basic reports and dashboards.",
-      images: [
-        new URL('@/assets/excel_act2.png', import.meta.url).href,
-        new URL('@/assets/excel_act1.png', import.meta.url).href,
-        new URL('@/assets/excel_act3.png', import.meta.url).href,
-        new URL('@/assets/pb1_act1.png', import.meta.url).href,
-        new URL('@/assets/pbi_act2.png', import.meta.url).href,
-      ],
-      currentImage: 0,
-      tech: ['Excel', 'Power BI', 'Data Cleaning', 'Pivot Tables', 'Data Visualization'],
-      githubUrl: "https://github.com/jeromeybz/excel_powerBI"
-
-    },
+ 
 
     {
       title: "Attendash",
