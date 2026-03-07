@@ -15,7 +15,7 @@
         A Computer Science student at Mariano Marcos State University. I do software development and data analytics for fun).
       </p>
       <a
-        href="/`Colobong_Resume`.pdf"
+        href="/`Colobong_Resume``.pdf"
         download
         class=" inline-block mt-5 pdx-7 py-2 rounded hover:opacity-100 transition text-2xl "
         style="background-color: #42b883; color: #FBEFEF; font-weight: bold;"
